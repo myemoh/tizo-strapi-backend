@@ -83,6 +83,8 @@ nbproject
 public/uploads/*
 !public/uploads/.gitkeep
 
+yarn.lock
+
 ############################
 # Node.js
 ############################
@@ -113,4 +115,3 @@ dist
 build
 .strapi-updater.json
 
-yarn.lock
