@@ -794,6 +794,7 @@ export interface ApiJobPostJobPost extends Schema.CollectionType {
     singularName: 'job-post';
     pluralName: 'job-posts';
     displayName: 'Job_post';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -801,11 +802,11 @@ export interface ApiJobPostJobPost extends Schema.CollectionType {
   attributes: {
     Title: Attribute.String;
     Subtitle: Attribute.String;
-    Job_Hero_image: Attribute.Media;
     Read_more_cta: Attribute.String;
     Apply_now_cta: Attribute.String;
     Short_job_description: Attribute.RichText;
     Job: Attribute.RichText;
+    Job_Hero_image: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -830,6 +831,7 @@ export interface ApiNewsHeroNewsHero extends Schema.CollectionType {
     singularName: 'news-hero';
     pluralName: 'news-heroes';
     displayName: 'News_Hero';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -838,9 +840,9 @@ export interface ApiNewsHeroNewsHero extends Schema.CollectionType {
     title: Attribute.String & Attribute.Required;
     post_title: Attribute.String & Attribute.Required;
     date: Attribute.String;
-    icon: Attribute.Media;
     author: Attribute.String;
-    hero_image: Attribute.Media;
+    icon: Attribute.String;
+    hero_image: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

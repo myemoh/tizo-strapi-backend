@@ -4,7 +4,8 @@
   "info": {
     "singularName": "news-hero",
     "pluralName": "news-heroes",
-    "displayName": "News_Hero"
+    "displayName": "News_Hero",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,28 +23,14 @@
     "date": {
       "type": "string"
     },
-    "icon": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "author": {
       "type": "string"
     },
+    "icon": {
+      "type": "string"
+    },
     "hero_image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      "type": "string"
     }
   }
 }

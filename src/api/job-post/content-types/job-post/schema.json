@@ -4,7 +4,8 @@
   "info": {
     "singularName": "job-post",
     "pluralName": "job-posts",
-    "displayName": "Job_post"
+    "displayName": "Job_post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,16 +18,6 @@
     "Subtitle": {
       "type": "string"
     },
-    "Job_Hero_image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "Read_more_cta": {
       "type": "string"
     },
@@ -38,6 +29,9 @@
     },
     "Job": {
       "type": "richtext"
+    },
+    "Job_Hero_image": {
+      "type": "string"
     }
   }
 }
