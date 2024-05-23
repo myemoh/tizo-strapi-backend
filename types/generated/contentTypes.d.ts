@@ -843,6 +843,7 @@ export interface ApiNewsHeroNewsHero extends Schema.CollectionType {
     author: Attribute.String;
     icon: Attribute.String;
     hero_image: Attribute.String;
+    post_details: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

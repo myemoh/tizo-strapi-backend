@@ -31,6 +31,9 @@
     },
     "hero_image": {
       "type": "string"
+    },
+    "post_details": {
+      "type": "richtext"
     }
   }
 }
